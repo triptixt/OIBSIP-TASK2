@@ -1,0 +1,149 @@
+#index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tripti Kumari</h1>
+            <p>Web Developer | Enthusiastic Coder</p>
+            <p class="tagline">code-craft-conquer</p>
+            <img src="my photo.jpg" alt="Profile Photo" class="profile-photo">
+        </header>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><b>10th class (CBSE)</b>: 8 CGPA</li>
+                <li><b>12th class (CBSE)</b>: 74%</li>
+                <li><b>Pursuing Bachelor Of Technology (CSE)</b></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><b>HTML, CSS, JavaScript</b></li>
+                <li><b>Beginner in React</b></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li><b>Ex Frontend Developer at Code Alpha</b></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <ul>
+                <li><b>Email:</b> ktripti098@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/tripti-kumari-7849392ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+
+
+#style.css
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    transform: perspective(1000px) rotateY(-10deg);
+    transition: transform 0.5s;
+}
+
+.container:hover {
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #444;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.tagline {
+    font-style: italic;
+    color: #888;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-photo:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
